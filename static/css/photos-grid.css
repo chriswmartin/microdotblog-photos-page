@@ -93,3 +93,8 @@ Override max-width of theme "Marfa" #wrapper.
 .wrapper:has(> .photos-grid) {
   max-width: 100%;
 }
+
+img {
+  padding: auto;
+  margin: auto;
+}
