@@ -56,7 +56,7 @@
 
     {{ partial "masonry.html" (dict "columns" 4 "photos" $photos "class" "photos-grid--visible-desktop") }}
 
-    {{ partial "masonry.html" (dict "columns" 2 "photos" $photos "class" "photos-grid--visible-mobile") }}
+    {{ partial "masonry.html" (dict "columns" 1 "photos" $photos "class" "photos-grid--visible-mobile") }}
 
   {{ else }}
     <p>The grid style "{{ $photos_grid_style }}" is not supported.</p>
